@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        table {
+            border-collapse: collapse;
+            width: 900px;
+            background: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        td {
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .date {
+            font-size: 14px;
+            color: gray;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .content {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 8px 16px;
+            border: 2px solid black;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="date">April 24, 2017</div>
+                <div class="title">SED MAGNA IPSUM FAUCIBUS</div>
+                <img src="https://d3jvxfsgjxj1vz.cloudfront.net/news/wp-content/uploads/2023/08/12112505/bugatti-chiron-super-sport-golden-era-1-scaled.jpg" alt="Car">
+                <p class="content">
+                    Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
+                </p>
+                <a href="#" class="btn">FULL STORY</a>
+            </td>
+            <td>
+                <div class="date">April 22, 2017</div>
+                <div class="title">PRIMIS EGET IMPERDIET LOREM</div>
+                <img src="https://th.bing.com/th/id/R.7fafbe6b90cfb59dba7254aeb4b90166?rik=LdO575xhTh4bDQ&riu=http%3a%2f%2fwww.hdcarwallpapers.com%2fwalls%2fpagani_zonda_r-wide.jpg&ehk=zlyKlKIwrJcxMFtO3l2mKrgGNI8Ji2ocatDp7brDSqo%3d&risl=&pid=ImgRaw&r=0" alt="Business">
+                <p class="content">
+                    Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
+                </p>
+                <a href="#" class="btn">FULL STORY</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
